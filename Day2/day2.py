@@ -29,7 +29,7 @@ def solve():
         for num in range(start, end + 1):
             if is_valid_id(num):
                 total_sum += num
-                break
+                    
     
     return total_sum
 
